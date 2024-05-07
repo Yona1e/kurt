@@ -1,0 +1,260 @@
+body{
+  margin: 0;
+   padding: 0;
+   
+ }
+ 
+ .main-content{
+   background-color: #4F4D4D;
+   width: 350px;
+   height:915px;
+ }
+ 
+ .logo img{
+   height: 100px;
+   width: 100px;
+   position: relative; top: 60px;
+   position: relative; left: 20px;
+ }
+ 
+ .gmail{
+ color: black;
+ font-family: Poppins, sans-serif;
+ font-size:20px;
+ position:relative; bottom: 25px;
+ position:relative; left: 135px;
+ }
+ 
+ .admin{
+ color: black;
+ font-family: Poppins, sans-serif;
+ font-size:20px;
+ position:relative; bottom:25px;
+ position:relative; left:135px;
+ }
+ 
+ .line{
+   height: 1px;
+ background: black;
+ width: 20rem;
+ position: relative;
+ top: 50px;
+ left: 15px;
+ } 
+ 
+ #profile{
+  z-index: 7;
+   background-color: #4F4D4D;
+   color: black;
+   font-family: Poppins, sans-serif;
+   font-size:20px;
+   width: 330px;
+     height: 80px;
+     border: none;
+     border-radius: 15px;
+     padding-left: 7px;
+   position: relative; top: 90px;
+   position: relative; left: 10px;
+ }
+ 
+ .profile img{
+   height: 60px;
+   width: 60px;
+   position: relative; right: 6rem;
+ }
+ 
+ 
+ #create-appointment{
+   background-color: #4F4D4D;
+   color: black;
+   font-family: Poppins, sans-serif;
+   font-size:20px;
+   width: 330px;
+     height: 80px;
+     border: none;
+     border-radius: 15px;
+     padding-left: 7px;
+   position: relative; top: 100px;
+   position: relative; left: 10px;
+ }
+ 
+ .create-appointment img{
+   height: 60px;
+   width: 70px;
+   position: relative; right:27px;
+ }
+ 
+ #my-bookings{
+   background-color: #4F4D4D;
+   color: black;
+   font-family: Poppins, sans-serif;
+   font-size:20px;
+   width: 330px;
+     height: 80px;
+     border: none;
+     border-radius: 15px;
+     padding-left: 7px;
+   position: relative; top: 110px;
+   position: relative; left: 10px;
+ }
+ 
+ .my-bookings img{
+   height: 50px;
+   width: 50px;
+   position: relative; right:70px;
+ }
+
+ #profile:hover{
+   background-color: white;
+ }
+ 
+ #create-appointment:hover{
+   background-color: white;
+ }
+ #my-bookings:hover{
+   background-color: white;
+ }
+ .box{
+   background-color: #A7A7A7;
+   position: relative;
+   bottom: 55rem;
+   left: 58rem;
+   width:17rem;
+   height: 220px;
+ }
+  
+  .line-1{
+    height: 1px;
+    background: black;
+    width: 40rem;
+    position: relative;
+    bottom: 23rem;
+    left: 23rem;
+} 
+
+.line-2{
+  height: 1px;
+  background: black;
+  width: 40rem;
+  position: relative;
+  bottom: 19rem;
+  left: 23rem;
+} 
+
+.line-3{
+  height: 1px;
+  background: black;
+  width: 40rem;
+  position:relative;
+  bottom: 14rem;
+  left: 23rem;
+} 
+
+.appointment-with-text{
+  display: inline;
+  font-family: Poppins, sans-serif;
+  position:relative;
+  top:1rem;
+  
+}
+
+.date-text{
+  display: inline;
+  font-family: Poppins, sans-serif;
+  position: relative;
+  left:5rem;
+  top:1rem;
+}
+
+.time-text{
+  display: inline;  
+  font-family: Poppins, sans-serif;
+  position: relative;
+  left:12rem;
+  top:1rem;
+}
+
+.room-number-text{
+  display: inline;
+  font-family: Poppins, sans-serif;
+  position: relative;
+  left:17rem;
+  top:1rem;
+}
+
+.name{
+  display: inline;
+  font-family: Poppins, sans-serif;
+  position:relative;
+  top:2rem;
+  left:3rem;
+}
+
+.date{
+  display: inline;
+  font-family: Poppins, sans-serif;
+  position: relative;
+  left:10rem;
+  top:2rem;
+}
+
+.time{
+  display: inline;
+  font-family: Poppins, sans-serif;
+  position: relative;
+  left:16rem;
+  top:2rem;
+}
+
+.room-number{
+  display: inline;
+  font-family: Poppins, sans-serif;
+  position: relative;
+  left:21rem;
+  top:2rem;
+}
+
+.my-appointment-text p{
+    font-family: Poppins, sans-serif;
+    font-size: 2rem;
+    color: black;
+    position: relative;
+    bottom:24rem;
+    left:23rem;
+}
+
+.containpop{
+  z-index: 1;
+  width: 700px;
+  height: 300px;
+  top: 351px;
+  display: block;
+  position: fixed;
+  color: #4F4D4D;
+
+}
+
+.card-body{
+  z-index: 1;
+  height: 800px;
+  top: 35px;
+  position: block;
+  color: #f7f6f6;
+}
+.container{
+  z-index: 1;
+  height: 800px;
+  user-select: none;
+  overflow: hidden;
+  left: 350px;
+  top: 35px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+#table{
+  width: 70rem;
+  position: relative;
+  bottom:55rem;
+  left:23rem;
+}
