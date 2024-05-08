@@ -29,7 +29,7 @@ if(isset($_GET['id'])) {
             $row = $result_select->fetch_assoc();
         }
       }
-}
+    }
 // Close connection
 $conn->close();
 
@@ -106,7 +106,7 @@ $conn->close();
             <td><?php echo $row['Email'] ?></td>
             <td><?php echo $row['Consultation'] ?></td>
             <td><a href="Admin21.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Edit</a></td>
-            <td><a href='deleted.php?id=<?php echo $row['id']; ?>' name="delete" class="btn btn-danger">Delete</a></td>
+            <td><a href='deleted.php?id=<?php echo $row['id']; ?>' name = "delete" onclick="return confirm('Are you sure you want to delete this appointment?');" class="btn btn-danger">Delete</a></td>
             <td><a href='mail.php?id=<?php echo $row['id']; ?>' name="Email" class="btn btn-primary">Email</a></td>
 
           </tr>
