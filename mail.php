@@ -1,4 +1,47 @@
+<?php
+//what
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\SMTP;
 
+require 'C:\xampp\htdocs\kurt\php email\PHPMailer-master\src\Exception.php';
+require 'php email/PHPMailer-master/src/PHPMailer.php';
+require 'C:\xampp\htdocs\kurt\php email\PHPMailer-master\src\SMTP.php';
+
+if(isset($_POST["send"])){
+
+  $mail = new PHPMailer(true);
+
+  $mail->SMTPDebug=3; // Enable debug logging (optional)
+
+  $mail->isSMTP();
+  $mail->Host = 'smtp.gmail.com';
+  $mail->SMTPAuth = true;
+  $mail->Username = 'mr.aidenashleysayson@gmail.com';  // Replace with your actual email
+  $mail->Password = 'yxdouyodpzzlzdnh'; // Replace with your actual password (use environment variables or config file)
+  $mail->SMTPSecure = 'tls';
+  $mail->Port = 587;
+
+  $mail->Setfrom('mr.aidenashleysayson@gmail.com');
+
+  $mail->addAddress($_POST["email"]);
+
+  $mail->isHTML(true);
+
+  $mail->Subject = $_POST["subject"];
+  $mail->Body = $_POST["message"];
+
+  if (!$mail->send()) {
+    echo "Error: " . $mail->ErrorInfo;
+  } else {
+    echo "<script>alert('Sent Successfully');
+    document.location.href = 'my-appointments.php';
+    </script>";
+  }
+
+}
+
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -26,7 +69,7 @@
           </a></div>
         </div>
     </div>
-    <form action="send.php" method="post">
+    <form action="mail.php" method="post">
           
           <div class="add-schedule-box">
            <div class="date-box">
