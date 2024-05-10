@@ -223,38 +223,10 @@ body{
     left:23rem;
 }
 
-.containpop{
-  z-index: 1;
-  width: 700px;
-  height: 300px;
-  top: 351px;
-  display: block;
-  position: fixed;
-  color: #4F4D4D;
-
+.table-responsive {
+  width: 100%; /* Adjust as needed */
 }
-
-.card-body{
-  z-index: 1;
-  height: 800px;
-  top: 35px;
-  position: block;
-  color: #f7f6f6;
-}
-.container{
-  z-index: 1;
-  height: 800px;
-  user-select: none;
-  overflow: hidden;
-  left: 350px;
-  top: 35px;
-  position: relative;
-  background-color: #ffffff;
-}
-
-#table{
-  width: 70rem;
-  position: relative;
-  bottom:55rem;
-  left:23rem;
+table {
+  table-layout: auto;
+  width: 100%;
 }
