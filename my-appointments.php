@@ -73,7 +73,7 @@ $conn->close();
 
       </div>
       <div class="table-responsive" id="table">
-          <table class="table table-striped table-bordered">
+      <table class="table table-striped table-bordered" style="width: 100%">
               <thead class="text-uppercase bg-gray-50 text-gray-700">
                   <tr>
                       <th scope="col">Id</th>
