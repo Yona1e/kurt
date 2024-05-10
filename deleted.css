@@ -309,12 +309,8 @@ body{
   content: "Delete";
 }
 
-.potato{
-width: 700px;
-}
 
-.Delete{
-position: absolute;
-left: 1000px;
-top: 1000px;
+.potato{
+  left: 700px;
+width: 700px;
 }
