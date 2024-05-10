@@ -121,7 +121,7 @@ function getBookingData($id) {
           </div>
           <div class="end-time-box">
             <p>Reason</p>
-            <input type="text" id="end-time" name="Consultation" >
+            <textarea name="Consultation"id="end-time" rows="10" cols="30" ></textarea>
           </div>
           </div>
           <div class="submit-button"><input type="Submit"  name="submit"></div>
